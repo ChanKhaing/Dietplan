@@ -1,10 +1,13 @@
 import React from 'react'
-import Header from './components/Header'
+import Navbar from './components/Navbar'
+import ImageCover from './components/Imagecover'
+// import Header from './components/Header'
 
 const App = () => {
   return (
       <div>
-      <Header/>
+      {/* <Navbar /> */}
+      <ImageCover/>
       </div>
   )
 }
