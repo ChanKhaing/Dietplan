@@ -1,16 +1,22 @@
 import React from 'react'
+import { Container } from './Container';
 
 const Navbar = () => {
   return (
-    <div>
-      <>
-        {/* <div className="flex  justify-between p-5   border   border-b-4  ">
-          <div className=" ms-20 font-serif font-normal bg-white ">
+    <div className="border-s-gray-200	border-b-4 p-2 border border-y-slate-500 shadow-lg">
+      <Container>
+        <div className="flex justify-between px-2 py-4    ">
+          <div className=" text-xl font-bold font-serif  bg-white ">
             Diet plan
           </div>
-          <div>
+          <nav>
             <ul className=" flex gap-3">
               <li>Home</li>
+              <li class="flex items-center">
+                <a href="#" class="text-gray-600 hover:text-gray-900">
+                  Home
+                </a>
+              </li>
               <li>Product</li>
               <li>About Us</li>
               <li>Contact Us </li>
@@ -63,10 +69,11 @@ const Navbar = () => {
                 </svg>
               </li>
             </ul>
-          </div>
-        </div> */}
+          </nav>
+        </div>
+      </Container>
 
-        <div class="container py-4">
+      {/* <div class="container py-4">
           <div class="flex justify-between">
             <div class="logo"></div>
             <nav>
@@ -95,8 +102,7 @@ const Navbar = () => {
             </nav>
             <div class="flex items-center space-x-4"></div>
           </div>
-        </div>
-      </>
+        </div> */}
     </div>
   );
 }

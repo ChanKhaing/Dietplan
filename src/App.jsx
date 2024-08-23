@@ -1,13 +1,14 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import ImageCover from './components/Imagecover'
-// import Header from './components/Header'
+import Coversection from './components/Coversection'
 
 const App = () => {
   return (
       <div>
-      {/* <Navbar /> */}
-      <ImageCover/>
+      <Navbar />
+      
+      
+      <Coversection/>
       </div>
   )
 }
