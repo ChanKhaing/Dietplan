@@ -22,8 +22,12 @@ const ProdutService = () => {
           <p className="text-lg  text-slate-500 ms-10">
             the diverse needs and preferences of our customers
           </p>
-              </section>
-             <Card/>
+        </section>
+        <section className="grid grid-cols-3 gap-20">
+          <Card />
+          <Card />
+          <Card />
+        </section>
       </Container>
     </>
   );
