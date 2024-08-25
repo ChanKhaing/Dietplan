@@ -5,7 +5,6 @@ import Navbar from './Navbar';
 const HeroSection = () => {
   return (
     <div>
-          <Navbar />
           <Coversection/>
     </div>
   );

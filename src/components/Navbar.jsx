@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container } from './Container';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -11,14 +12,12 @@ const Navbar = () => {
           </div>
           <nav>
             <ul className=" flex gap-3">
-              <li>Home</li>
-              <li class="flex items-center">
-                <a href="#" class="text-gray-600 hover:text-gray-900">
-                  Home
-                </a>
+              
+              <li class="flex items-center">         
+                 <Link to="/" className="text-gray-600 hover:text-gray-900" > Home </Link> 
               </li>
               <li>Product</li>
-              <li>About Us</li>
+              <li> <Link to="/aboutus" className="text-gray-600 hover:text-gray-900">About Us</Link> </li>
               <li>Contact Us </li>
               <li>
                 <svg
