@@ -22,13 +22,13 @@ const Coversection = () => {
             </h1>
 
             
-              <p className="text-lg  text-black">
+              <p className="text-lg text-slate-500">
                 We provide essential nutrients, vitamins,
               </p>
-              <p className="text-lg  text-black">
+              <p className="text-lg text-slate-500">
                 and minerals that nourish the body and support
               </p>
-              <p className="text-lg  text-black">overall well-being.</p>
+              <p className="text-lg text-slate-500">overall well-being.</p>
             
 
             <div class="grid gap-1 grid-cols-3 text-black w-2/6">
