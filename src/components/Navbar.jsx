@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container } from './Container';
 import { Link } from 'react-router-dom';
+import Product from '../pages/Product';
 
 const Navbar = () => {
   return (
@@ -11,14 +12,14 @@ const Navbar = () => {
             Diet plan
           </div>
           <nav>
-            <ul className=" flex gap-3">
+            <ul className=" flex gap-5">
               
               <li class="flex items-center">         
                  <Link to="/" className="text-gray-600 hover:text-gray-900" > Home </Link> 
               </li>
-              <li>Product</li>
+              <li> <Link to="/product" className="text-gray-600 hover:text-gray-900">Products</Link> </li>
               <li> <Link to="/aboutus" className="text-gray-600 hover:text-gray-900">About Us</Link> </li>
-              <li>Contact Us </li>
+              <li> <Link to="/contactus" className="text-gray-600 hover:text-gray-900">Contact</Link> </li>
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

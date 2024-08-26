@@ -14,7 +14,7 @@ const Coversection = () => {
       <div className="absolute top-0 left-0 w-full h-full  bg-opacity-70   text-white p-4">
         <Container>
           <section className="mt-44">
-            <h1 className="text-6xl leading-tight font-mono font-semibold text-black">
+            <h1 className="text-6xl leading-normal font-mono font-semibold text-black">
               Healthy Food
             </h1>
             <h1 className="text-6xl mb-4 font-mono font-semibold text-black leading-normal">

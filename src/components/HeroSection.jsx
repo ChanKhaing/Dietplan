@@ -4,7 +4,8 @@ import Navbar from './Navbar';
 
 const HeroSection = () => {
   return (
-    <div>
+    <div>  
+          <Navbar/>
           <Coversection/>
     </div>
   );

@@ -10,7 +10,7 @@ import Dietplan from './components/Dietplan'
 
 const App = () => {
   return (
-      <div>
+    <div>
       <HeroSection />
       <ProdutService />
       <Healthy />
