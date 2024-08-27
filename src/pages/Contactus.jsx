@@ -1,8 +1,11 @@
 import React from 'react'
+import ContactCover from '../components/ContactCover'
 
 const Contactus = () => {
   return (
-    <div>Contactus</div>
+    <>
+    <ContactCover/>
+    </>
   )
 }
 

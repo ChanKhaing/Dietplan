@@ -12,7 +12,7 @@ const AboutCover = () => {
         className="w-full h-full bg-cover object-cover "
       />
 
-      <div className="absolute top-0 left-0 mx-auto w-full h-full  bg-opacity-70   text-white p-4">
+      <div className="absolute top-0 left-0 text-center w-full h-full  bg-opacity-70   text-white p-4">
         <Container>
           <section className="mt-44">
             <h1 className="text-6xl leading-tight font-mono font-semibold text-black">
