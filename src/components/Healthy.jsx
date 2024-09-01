@@ -13,8 +13,8 @@ const Healthy = () => {
 
         <div className="absolute top-0 right-24  h-full  bg-opacity-70   text-white p-4">
           <section className="mt-44">
-            <h1 className="text-3xl  leading-tight font-mono font-semibold text-black">
-             Why Choose us
+            <h1 className="text-3xl   leading-tight font-chan text-black">
+             Why Choose us?____
             </h1>
             <h1 className="text-6xl leading-tight font-mono font-semibold text-black">
               Refreshing

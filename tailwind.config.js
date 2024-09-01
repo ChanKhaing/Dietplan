@@ -7,7 +7,8 @@ export default {
         "open-sans": ["Open Sans", "Padauk"],
         roboto: ["Roboto", "Padauk"],
         padauk: ["Padauk", "sans-serif"],
-          dancing:[ "Dancing Script"]
+        dancing: ["Dancing Script"],
+          chan :[ "Sevillana", "serif"]
 
       },
     },

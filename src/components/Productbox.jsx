@@ -3,7 +3,7 @@ import { Container } from './Container';
 
 const Productbox = () => {
   return (
-    <div className=' mb-44'>
+    <div className=' my-44'>
       <Container>
         <div className=" flex justify-evenly h-28 ">
           <section className="flex justify-between rounded-lg p-4  border w-[350px]  bg-gray-200 opacity-50   items-center">
