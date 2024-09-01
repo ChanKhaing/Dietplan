@@ -13,7 +13,7 @@ const Product = () => {
       <Productset />
       <Sign/>
       <Creationproduct/>
-      <Productservice />
+      {/* <Productservice /> */}
       <Productbox/>
     </div>
   )

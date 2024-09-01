@@ -15,35 +15,31 @@ const Coversection = () => {
         <Container>
           <section className="mt-44">
             <h1 className="text-6xl leading-normal font-mono font-semibold text-black">
-              Healthy Food
-            </h1>
-            <h1 className="text-6xl mb-4 font-mono font-semibold text-black leading-normal">
+              Healthy Food <br />
               And Salad
             </h1>
 
-            
-              <p className="text-lg text-slate-500">
-                We provide essential nutrients, vitamins,
-              </p>
-              <p className="text-lg text-slate-500">
-                and minerals that nourish the body and support
-              </p>
-              <p className="text-lg text-slate-500">overall well-being.</p>
-            
+            <p className="text-xl text-slate-500">
+              We provide essential nutrients, vitamins,
+              <br />
+              and minerals that nourish the body and <br /> support overall
+              well-being.
+            </p>
 
-            <div class="grid gap-1 grid-cols-3 text-black w-2/6">
-              <span>
-                <p>100%</p>
-                <p>Organic</p>
+            <div class="flex justify-between text-black w-2/6 mt-10">
+                <span>
+                <p className=" text-2xl">100%</p>
+                <p className=" font-bold text-3xl text-bold"> Organic </p>
               </span>
 
               <span>
-                <p>0%</p>
-                <p>Fat</p>
+                <p className=" text-2xl">0%</p>
+                <p className=" font-bold text-3xl text-bold">Fat</p>
               </span>
+
               <span>
-                <p>+90%</p>
-                <p>Protein</p>
+                <p className=" text-2xl">+90%</p>
+                <p className=" font-bold text-3xl text-bold">Protein</p>
               </span>
             </div>
           </section>

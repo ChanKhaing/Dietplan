@@ -23,13 +23,13 @@ const Healthy = () => {
               Fruit Juice
             </h1>
 
-            <p className="text-lg  text-black">
+            <p className="text-lg text-slate-500 ">
               Start your day with a burst of freshness,
-            </p>
-            <p className="text-lg  text-black">
+
+          <br/>
               indulge in our invigorating range of fresh
-            </p>
-            <p className="text-lg  text-black">
+            <br/>
+
               juices crafted from the finest fruits
             </p>
           </section>
