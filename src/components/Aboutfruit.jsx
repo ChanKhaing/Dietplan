@@ -5,7 +5,7 @@ const Aboutfruit = () => {
   return (
     <div>
       <div>
-        <div className="relative w-full h-full mt-44">
+        <div className="relative w-full h-full my-44">
           <img
             src={fruit}
             alt="Healthy Food and Salad"
@@ -14,9 +14,9 @@ const Aboutfruit = () => {
 
           <div className="absolute top-0 right-24  h-full  bg-opacity-70   text-white p-4">
             <section className="mt-44">
-              <h1 className="text-3xl  leading-tight font-mono font-semibold text-black">
-                Why Choose us
-              </h1>
+              <h4 className=" text-2xl leading-tight font-mono font-semibold text-black">
+               Organic Meal Plan____
+              </h4>
               <h1 className="text-6xl leading-tight font-mono font-semibold text-black">
                 Refreshing
               </h1>

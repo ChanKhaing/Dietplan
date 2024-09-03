@@ -7,7 +7,7 @@ const ProductSpecial = () => {
  
       <template className="mt-44 flex justify-between">
         <Container>
-          <section className=" flex justify-between">
+          <section className="  flex justify-between">
             <div>
               <h1 className="text-6xl font-mono font-semibold text-black">
                 |Special set

@@ -1,7 +1,7 @@
 import React from 'react'
 import specialset from "../assets/image/specialset.png";
 import freshjuice from '../assets/image/freshjuice.png';
-import customset from '../assets/image/customset.png'
+import customset from '../assets/image/customsetbox.png'
 import { Container } from './Container';
 
 

@@ -5,7 +5,7 @@ import Card from "./Card";
 const ProductSale = () => {
   return (
     <div>
-      <template className="mt-44 flex justify-between">
+      <template className=" mt-44 flex justify-between">
         <Container>
           <section className=" flex justify-between">
             <div>
