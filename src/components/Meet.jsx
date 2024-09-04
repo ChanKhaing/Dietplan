@@ -6,19 +6,17 @@ const Meet = () => {
   return (
     <div className=" w-full h-full mt-44">
       <Container>
-        <div className=" flex relative ">
+        <div className=" flex relative space-x-32">
           <img
             src={Choose}
             alt="Healthy Food and Salad"
             className="w-1/3 h-1/3 bg-cover object-cover "
           />
           <section className=" ms-16 mt-9">
-            <p>Choose us Today</p>
-            <h1 className="text-6xl  font-mono font-semibold text-black leading-normal">
+            <p className=' font-dancing text-2xl'>Choose us Today</p>
+            <h1 className="text-6xl font-roboto font-semibold text-black leading-normal">
               Revitalizing
-            </h1>
-            <h1 className="text-6xl font-mono font-semibold text-black leading-normal ">
-              {" "}
+              <br />
               Nutrient Diet
             </h1>
             <p className="text-lg text-slate-500">

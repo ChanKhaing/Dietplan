@@ -4,12 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        "open-sans": ["Open Sans", "Padauk"],
-        roboto: ["Roboto", "Padauk"],
-        padauk: ["Padauk", "sans-serif"],
         dancing: ["Dancing Script"],
-          chan :[ "Sevillana", "serif"]
-
+        roboto: ["Roboto"],
       },
     },
   },

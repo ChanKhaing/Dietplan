@@ -1,13 +1,14 @@
 import React from 'react'
 import Product1 from '../assets/image/product1.jpg'
+import Starview from './Starview';
 
 const Card = () => {
-  const numbers = 5;
+  const numbers = 4;
                   const starts = [];
 
   return (
-    <div>
-      <div className="ms-5 bg-black  text-white w-[400px] rounded-2xl p-4 mt-44">
+    <div className=''>
+      <div className="ms-5 bg-black  text-white container w-[400px] h-[500px] rounded-2xl p-4 mt-44">
         <div className=" grid grid-cols-3  h-24 bg-transparent -translate-y-3 relative">
           <img
             src={Product1}
@@ -21,7 +22,7 @@ const Card = () => {
         <div className=" mt-5">
           <h1 className="text-3xl font-bold z-10  ">Special Set</h1>
           <span className=" text-lg text-white inline-block my-5  ">
-            <div className=" flex gap-2 ">
+            {/* <div className=" flex gap-2 ">
 
       
         <svg
@@ -44,17 +45,18 @@ const Card = () => {
                25 reviews 
           </span>
   
-            </div>
+            </div> */}
+            <Starview numbers={numbers} />
           </span>
           <p className="text-lg  z-10 mb-5  ">
             Energize with our nutritious healthy salad, bursting with fresh
             greens and vibrant superfoods.
           </p>
-          <div className="flex justify-between text-xl font-bold">
+          <div className="flex justify-between text-xl font-bold mb-2">
             <span className=" font-bold">$100</span>
             <span>+110 Available</span>
           </div>
-          <button className=" my-3 text-black bg-white w-full font-bold py-4 px-4 rounded-xl">
+          <button className=" my-6 text-black bg-white w-full font-bold py-4 px-4 rounded-xl">
             Add to Cart
           </button>
         </div>

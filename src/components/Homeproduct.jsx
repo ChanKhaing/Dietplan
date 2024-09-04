@@ -15,7 +15,7 @@ const Homeproduct = () => {
             |Product Service 
             </h1>
           
-            <button class="inline-flex font-serif  items-center text-white bg-slate-800 border-0  px-8 focus:outline-none  rounded text-lg">
+            <button class="inline-flex font-serif rounded-2xl  items-center text-white bg-slate-800 border-0  px-8 focus:outline-none   text-lg">
             See more 
             </button>
           
@@ -29,7 +29,7 @@ const Homeproduct = () => {
         
         </section>
       
-        <section className="grid grid-cols-3  gap-10 row-span-3">
+        <section className="grid grid-cols-3   gap-10 row-span-3">
         <Card />
         <Card />
         <Card />
