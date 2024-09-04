@@ -5,8 +5,7 @@ const FAQ = () => {
   return (
     <div>
       <section className=" mt-44 right-0 text-center mb-32 ">
-        <span className=" inline-block right-0 text-center font-serif  ">
-          {" "}
+        <span className=" inline-block right-0 text-center font-dancing text-2xl  ">
           ___HelpfulInformation___
         </span>
         <h1 className=" text-5xl  font-bold  mb-5  ">

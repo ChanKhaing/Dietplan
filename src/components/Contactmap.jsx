@@ -5,7 +5,7 @@ const Contactmap = () => {
   return (
     <div className=" mt-44 mb-44">
       <section className="  right-0 text-center mb-20 ">
-        <span className=" inline-block right-0 text-center font-serif  ">
+        <span className=" inline-block right-0 text-center font-dancing text-2xl  ">
           ___Contact with us___
         </span>
         <h1 className=" text-5xl  font-bold  mb-5  ">Feel Free to reach out</h1>
@@ -53,7 +53,7 @@ const Contactmap = () => {
               id="Quantity"
             ></textarea>
 
-            <button class="  p-2  font-serif rounded-lg    items-center m-2 text-white bg-slate-800 border-0  px-8 focus:outline-none  text-lg">
+            <button class="  p-2  font-serif rounded-lg    items-center m-2 text-white bg-black border-0  px-8 focus:outline-none  text-lg">
               SUBMIT REQUEST
             </button>
           </div>

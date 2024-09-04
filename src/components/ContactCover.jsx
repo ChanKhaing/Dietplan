@@ -15,19 +15,11 @@ const ContactCover = () => {
         <Container>
           <section>
             <h1 className="text-6xl leading-tight font-mono font-semibold text-black">
-              Healthy Food
-            </h1>
-            <h1 className="text-6xl mb-4 font-mono font-semibold text-black leading-normal">
-              And Salad
+              Contact Us 
             </h1>
 
-            <p className="text-lg text-slate-500">
-              We provide essential nutrients, vitamins,
-            </p>
-            <p className="text-lg text-slate-500">
-              and minerals that nourish the body and support
-            </p>
-            <p className="text-lg text-slate-500">overall well-being.</p>
+            <p className="text-lg text-slate-500">Home / About Us</p>
+          
           </section>
         </Container>
       </div>

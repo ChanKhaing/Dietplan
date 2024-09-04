@@ -22,11 +22,14 @@ const Aboutfruit = () => {
                 Fruit
               </h1>
 
-              <p className="text-lg  py-4  text-black">
-                Elevate your diet with our carefully selected <br/>
+              <p className="text-lg  my-4  text-black">
+                Elevate your diet with our carefully selected <br />
                 organic fruits. Packed with essential vitamins
-                <br/> and antioxidants.
+                <br /> and antioxidants.
               </p>
+              <button class="  inline-block font-serif rounded-2xl  items-center my-2 text-slate-100 bg-black border-0  px-10 py-2 focus:outline-none   text-lg">
+                SHOW ALL
+              </button>
             </section>
           </div>
         </div>
