@@ -2,12 +2,13 @@ import React from 'react'
 import { Container } from './Container';
 import { Link } from 'react-router-dom';
 import Product from '../pages/Product';
+import MainContainer from './MainContainer';
 
 const Navbar = () => {
   return (
-    <div className="border-s-gray-200 sticky top-0 z-10 w-full bg-white	py-3 shadow-lg">
-      <Container>
-        <div className="flex justify-between px-2 py-4   ">
+    <div className="border-s-gray-200 sticky top-0 z-10 w-full bg-white	py-3 shadow-lg ">
+      <MainContainer>
+        <div className="flex justify-between  py-4  md:container md:px-10  ">
           <div className=" text-xl font-bold font-serif  bg-white ">
             Diet plan
           </div>
@@ -71,7 +72,7 @@ const Navbar = () => {
             </ul>
           </nav>
         </div>
-      </Container>
+      </MainContainer>
 
       {/* <div class="container py-4">
           <div class="flex justify-between">
