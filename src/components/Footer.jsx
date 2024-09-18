@@ -1,6 +1,7 @@
 import React from "react";
 import Dietplan from "./Dietplan";
-import { Container } from "./Container";
+// import { Container } from "./Container";
+import MainContainer from "./MainContainer";
 
 const Footer = () => {
   const date = new Date();
@@ -8,7 +9,7 @@ const Footer = () => {
     <div>
       <Dietplan />
       <footer className=" mt-auto bg-black text-white text-lg">
-        <Container>
+        <MainContainer>
           <div className=" flex justify-between">
             <div className=" py-6">
               © {date.getFullYear()}{" "}
@@ -19,7 +20,7 @@ const Footer = () => {
             </div>
             <span className=" bg-black flex items-center text-white">MMSIT BUD</span>
           </div>
-        </Container>
+        </MainContainer>
       </footer>
     </div>
   );

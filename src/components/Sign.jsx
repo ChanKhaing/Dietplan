@@ -1,10 +1,11 @@
 import React from "react";
 import { Container } from "./Container";
+import MainContainer from "./MainContainer";
 
 const Sign = () => {
   return (
     <div className="mt-44">
-      <Container>
+      <MainContainer>
         <section className="flex justify-between mb-10">
           <h1 className="text-5xl font-mono font-semibold text-black">
             |Start using Today
@@ -22,7 +23,7 @@ const Sign = () => {
           Sign up today and unlock a world of exclusive
         </p>
         <p className="text-lg ms-10 text-slate-500">benefits and exciting offers</p>
-      </Container>
+      </MainContainer>
     </div>
   );
 };

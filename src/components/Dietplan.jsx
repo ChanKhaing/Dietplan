@@ -1,10 +1,11 @@
 import React from 'react'
 import { Container } from './Container'
+import MainContainer from './MainContainer'
 
 const Dietplan = () => {
   return (
     <div className="mt-44 w-full h-[300px] bg-black flex items-center  opacity-90 text-gray-300 ">
-      <Container>
+      <MainContainer>
         <section classsName="flex justify-between p-6">
           <div className=" grid grid-cols-2">
             <div className="red ">
@@ -51,7 +52,7 @@ const Dietplan = () => {
             </div>
           </div>
         </section>
-      </Container>
+      </MainContainer>
     </div>
   );
 }

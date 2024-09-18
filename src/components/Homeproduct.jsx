@@ -1,11 +1,12 @@
 import React from 'react'
 import { Container } from './Container.jsx';
 import Card from './Card.jsx';
+import MainContainer from './MainContainer.jsx';
 
 const Homeproduct = () => {
   return (
     <div>
-      <Container>
+      <MainContainer>
     
         <section className="mt-44">
        
@@ -36,7 +37,7 @@ const Homeproduct = () => {
         
         </section>
       
-      </Container>
+      </MainContainer>
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import Dietimage from "../assets/image/Dietimage.jpg";
-import { Container } from "./Container";
+// import { Container } from "./Container";
+import MainContainer from "./MainContainer";
 
 const Coversection = () => {
   return (
@@ -12,7 +13,7 @@ const Coversection = () => {
       />
 
       <div className="absolute top-0 left-0 w-full h-full  bg-opacity-70   text-white p-4">
-        <Container>
+        <MainContainer>
           <section className="mt-44">
             <h1 className="text-6xl leading-normal  font-semibold text-black">
               Healthy Food <br />
@@ -43,7 +44,7 @@ const Coversection = () => {
               </span>
             </div>
           </section>
-        </Container>
+        </MainContainer>
       </div>
     </div>
   );

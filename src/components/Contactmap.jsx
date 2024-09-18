@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "./Container";
+import MainContainer from "./MainContainer";
 
 const Contactmap = () => {
   return (
@@ -14,19 +15,19 @@ const Contactmap = () => {
         </p>
       </section>
 
-      <Container>
-        <section className=" flex justify-between">
+      <MainContainer>
+        <section className=" flex justify-center items-center gap-14">
           <div>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d282.2278004210445!2d96.13915756278593!3d16.806500384142712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1edbb8a89416d%3A0x64420f52367032b9!2sMMS%20IT!5e1!3m2!1sen!2smy!4v1686286820285!5m2!1sen!2smy"
-              className=" w-[600px] h-[600px] rounded-2xl"
+              className=" w-[450px] h-[450px] rounded-2xl"
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
 
-          <div className=" w-[600px] h-[600px] rounded-2xl ">
+          <div className=" w-[450px] h-[450px] rounded-2xl  -translate-y-2">
             <span className=" block mb-4 text-lg rounded-lg">Full Name</span>
             <input
               className="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900   p-2.5 text-sm rounded-lg"
@@ -47,7 +48,7 @@ const Contactmap = () => {
               Message
             </span>
             <textarea
-              class="block w-full h-[200px] mb-4 border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900   p-2.5 text-sm rounded-lg"
+              class="block w-full h-[100px] mb-4 border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900   p-2.5 text-sm rounded-lg"
               type="text"
               required=""
               id="Quantity"
@@ -58,7 +59,7 @@ const Contactmap = () => {
             </button>
           </div>
         </section>
-      </Container>
+      </MainContainer>
     </div>
   );
 };
